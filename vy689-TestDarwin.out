@@ -1,37 +1,125 @@
-==11058== Memcheck, a memory error detector
-==11058== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
-==11058== Using Valgrind-3.10.1 and LibVEX; rerun with -h for copyright info
-==11058== Command: ./TestDarwin
-==11058==
+==90699== Memcheck, a memory error detector
+==90699== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==90699== Using Valgrind-3.10.1 and LibVEX; rerun with -h for copyright info
+==90699== Command: ./TestDarwin
+==90699== 
 Running main() from gtest_main.cc
-[==========] Running 1 test from 1 test case.
+[==========] Running 48 tests from 1 test case.
 [----------] Global test environment set-up.
-[----------] 1 test from DarwinFixture
-[ RUN      ] DarwinFixture.test
-[       OK ] DarwinFixture.test (7 ms)
-[----------] 1 test from DarwinFixture (12 ms total)
+[----------] 48 tests from DarwinFixture
+[ RUN      ] DarwinFixture.addc_test1
+[       OK ] DarwinFixture.addc_test1 (47 ms)
+[ RUN      ] DarwinFixture.read_test1
+[       OK ] DarwinFixture.read_test1 (19 ms)
+[ RUN      ] DarwinFixture.read_test2
+[       OK ] DarwinFixture.read_test2 (2 ms)
+[ RUN      ] DarwinFixture.read_test3
+[       OK ] DarwinFixture.read_test3 (3 ms)
+[ RUN      ] DarwinFixture.read_test4
+[       OK ] DarwinFixture.read_test4 (3 ms)
+[ RUN      ] DarwinFixture.read_test5
+[       OK ] DarwinFixture.read_test5 (6 ms)
+[ RUN      ] DarwinFixture.read_test6
+[       OK ] DarwinFixture.read_test6 (3 ms)
+[ RUN      ] DarwinFixture.read_test7
+[       OK ] DarwinFixture.read_test7 (2 ms)
+[ RUN      ] DarwinFixture.read_test8
+[       OK ] DarwinFixture.read_test8 (3 ms)
+[ RUN      ] DarwinFixture.read_test9
+[       OK ] DarwinFixture.read_test9 (3 ms)
+[ RUN      ] DarwinFixture.read_go_test1
+[       OK ] DarwinFixture.read_go_test1 (2 ms)
+[ RUN      ] DarwinFixture.read_go_test2
+[       OK ] DarwinFixture.read_go_test2 (3 ms)
+[ RUN      ] DarwinFixture.read_go_test3
+[       OK ] DarwinFixture.read_go_test3 (2 ms)
+[ RUN      ] DarwinFixture.read_ifwall_test1
+[       OK ] DarwinFixture.read_ifwall_test1 (2 ms)
+[ RUN      ] DarwinFixture.read_ifwall_test2
+[       OK ] DarwinFixture.read_ifwall_test2 (2 ms)
+[ RUN      ] DarwinFixture.read_ifwall_test3
+[       OK ] DarwinFixture.read_ifwall_test3 (2 ms)
+[ RUN      ] DarwinFixture.read_ifenemy_test1
+[       OK ] DarwinFixture.read_ifenemy_test1 (2 ms)
+[ RUN      ] DarwinFixture.read_ifenemy_test2
+[       OK ] DarwinFixture.read_ifenemy_test2 (2 ms)
+[ RUN      ] DarwinFixture.read_ifenemy_test3
+[       OK ] DarwinFixture.read_ifenemy_test3 (2 ms)
+[ RUN      ] DarwinFixture.read_ifempty_test1
+[       OK ] DarwinFixture.read_ifempty_test1 (2 ms)
+[ RUN      ] DarwinFixture.read_ifempty_test2
+[       OK ] DarwinFixture.read_ifempty_test2 (2 ms)
+[ RUN      ] DarwinFixture.read_ifempty_test3
+[       OK ] DarwinFixture.read_ifempty_test3 (2 ms)
+[ RUN      ] DarwinFixture.read_ifrandom_test1
+[       OK ] DarwinFixture.read_ifrandom_test1 (3 ms)
+[ RUN      ] DarwinFixture.read_ifrandom_test2
+[       OK ] DarwinFixture.read_ifrandom_test2 (2 ms)
+[ RUN      ] DarwinFixture.read_ifrandom_test3
+[       OK ] DarwinFixture.read_ifrandom_test3 (3 ms)
+[ RUN      ] DarwinFixture.read_invalid_test
+[       OK ] DarwinFixture.read_invalid_test (2 ms)
+[ RUN      ] DarwinFixture.icon_test
+[       OK ] DarwinFixture.icon_test (3 ms)
+[ RUN      ] DarwinFixture.icon_test2
+[       OK ] DarwinFixture.icon_test2 (2 ms)
+[ RUN      ] DarwinFixture.run_test
+[       OK ] DarwinFixture.run_test (7 ms)
+[ RUN      ] DarwinFixture.run_test2
+[       OK ] DarwinFixture.run_test2 (4 ms)
+[ RUN      ] DarwinFixture.run_test3
+[       OK ] DarwinFixture.run_test3 (5 ms)
+[ RUN      ] DarwinFixture.run_test4
+[       OK ] DarwinFixture.run_test4 (7 ms)
+[ RUN      ] DarwinFixture.run_test5
+[       OK ] DarwinFixture.run_test5 (9 ms)
+[ RUN      ] DarwinFixture.run_test6
+[       OK ] DarwinFixture.run_test6 (6 ms)
+[ RUN      ] DarwinFixture.run_test7
+[       OK ] DarwinFixture.run_test7 (5 ms)
+[ RUN      ] DarwinFixture.run_test8
+[       OK ] DarwinFixture.run_test8 (4 ms)
+[ RUN      ] DarwinFixture.run_test9
+[       OK ] DarwinFixture.run_test9 (5 ms)
+[ RUN      ] DarwinFixture.run_test10
+[       OK ] DarwinFixture.run_test10 (10 ms)
+[ RUN      ] DarwinFixture.run_test11
+[       OK ] DarwinFixture.run_test11 (7 ms)
+[ RUN      ] DarwinFixture.run_test12
+[       OK ] DarwinFixture.run_test12 (12 ms)
+[ RUN      ] DarwinFixture.run_test13
+[       OK ] DarwinFixture.run_test13 (12 ms)
+[ RUN      ] DarwinFixture.darwin_con_test
+[       OK ] DarwinFixture.darwin_con_test (4 ms)
+[ RUN      ] DarwinFixture.darwin_con_test2
+[       OK ] DarwinFixture.darwin_con_test2 (4 ms)
+[ RUN      ] DarwinFixture.darwin_con_test3
+[       OK ] DarwinFixture.darwin_con_test3 (3 ms)
+[ RUN      ] DarwinFixture.c_con_test
+[       OK ] DarwinFixture.c_con_test (3 ms)
+[ RUN      ] DarwinFixture.c_con_test2
+[       OK ] DarwinFixture.c_con_test2 (3 ms)
+[ RUN      ] DarwinFixture.s_con_test
+[       OK ] DarwinFixture.s_con_test (3 ms)
+[ RUN      ] DarwinFixture.s_con_test2
+[       OK ] DarwinFixture.s_con_test2 (3 ms)
+[----------] 48 tests from DarwinFixture (260 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (36 ms total)
-[  PASSED  ] 1 test.
-==11058==
-==11058== HEAP SUMMARY:
-==11058==     in use at exit: 0 bytes in 0 blocks
-==11058==   total heap usage: 216 allocs, 216 frees, 45,307 bytes allocated
-==11058==
-==11058== All heap blocks were freed -- no leaks are possible
-==11058==
-==11058== For counts of detected and suppressed errors, rerun with: -v
-==11058== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+[==========] 48 tests from 1 test case ran. (293 ms total)
+[  PASSED  ] 48 tests.
+==90699== 
+==90699== HEAP SUMMARY:
+==90699==     in use at exit: 0 bytes in 0 blocks
+==90699==   total heap usage: 1,195 allocs, 1,195 frees, 127,780 bytes allocated
+==90699== 
+==90699== All heap blocks were freed -- no leaks are possible
+==90699== 
+==90699== For counts of detected and suppressed errors, rerun with: -v
+==90699== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 File 'Darwin.c++'
-Lines executed:100.00% of 2
-No branches
-No calls
+Lines executed:80.00% of 220
+Branches executed:88.89% of 216
+Taken at least once:70.83% of 216
+Calls executed:67.84% of 171
 Creating 'Darwin.c++.gcov'
-
-File 'TestDarwin.c++'
-Lines executed:100.00% of 2
-Branches executed:63.64% of 22
-Taken at least once:31.82% of 22
-Calls executed:50.00% of 26
-Creating 'TestDarwin.c++.gcov'
